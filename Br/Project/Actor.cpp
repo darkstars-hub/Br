@@ -1,5 +1,7 @@
 #include "Actor.h"
 
+#include <iterator>
+
 #include "Component.h"
 
 

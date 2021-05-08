@@ -223,7 +223,7 @@ std::unordered_map<int, std::string>* br::Sprite::GetMotionMap(void) {
     return _motion_map;
 }
 
-Mof::CRectangle br::Sprite::GetSrcRect(void)  {
+Mof::CRectangle br::Sprite::GetSrcRect(void) {
     return _motion.GetSrcRect();
 }
 
@@ -250,8 +250,8 @@ void br::Sprite::Update(void) {
 
 void br::Sprite::Render(const Mof::Vector2 position) {
     if (auto r = _texture.lock()) {
-#ifdef _DEBUG
         auto rect = _motion.GetSrcRect();
+#ifdef _DEBUG
         ::CGraphicsUtilities::RenderFillRect(
             CRectangle(position.x,
                        position.y,

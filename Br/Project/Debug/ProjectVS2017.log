@@ -1,37 +1,31 @@
-﻿  Actor.cpp
-  ActorFactory.cpp
-  ActorManager.cpp
-  AIAttack.cpp
+﻿  AIAttack.cpp
   AIComponent.cpp
   AIParam.cpp
   AIPatrol.cpp
   AIState.cpp
+  AStar.cpp
+  Actor.cpp
+  ActorFactory.cpp
+  ActorManager.cpp
   ArcherComponent.cpp
   ArcherMoveComponent.cpp
   ArcherRange.cpp
-  AStar.cpp
   AudioSystem.cpp
   BattleSystem.cpp
   BattleSystemForecast.cpp
   BattleSystemHp.cpp
   BattleSystemUnit.cpp
   BattleSystemUnitInfomation.cpp
-  BezierCurve.cpp
-  Builder.cpp
-  コードを生成中...
-  コンパイル中...
   Camera.cpp
   CavalryComponent.cpp
+  コードを生成中...
+  コンパイル中...
   ChariotComponent.cpp
-  Component.cpp
   Cursor.cpp
   CursorMoveComponent.cpp
   DamageCalculator.cpp
-  Effect.cpp
-  EffectManager.cpp
   FusionSystem.cpp
   Game.cpp
-  GameApp.cpp
   GameClear.cpp
   GameMenu.cpp
   GameMenuMessage.cpp
@@ -40,52 +34,39 @@
   GameOverMenuMessage.cpp
   GameSystem.cpp
   GameUI.cpp
-  コードを生成中...
-  コンパイル中...
   GeneralComponent.cpp
-  SceneManager.cpp
-  UnitHealComponent.cpp
   HealerComponent.cpp
   HeavyCavalryComponent.cpp
   HopliteComponent.cpp
   HpComponent.cpp
   HunterComponent.cpp
+  コードを生成中...
+  コンパイル中...
   LightCavalryComponent.cpp
   Load.cpp
-  LoadSceneInfomation.cpp
   LordComponent.cpp
-  MenuItem.cpp
-  MenuMessage.cpp
-  MenuMessenger.cpp
-  MotionComponent.cpp
   Menu.cpp
+  MenuItem.cpp
+  MenuMessenger.cpp
   PathComponent.cpp
   PathRenderComponent.cpp
   Range.cpp
-  コードを生成中...
-  コンパイル中...
   RangeComponent.cpp
   RangeRenderComponent.cpp
-  RenderComponent.cpp
   ResourceManager.cpp
-  ReverseGuage.cpp
   Scene.cpp
-  SceneInfomation.cpp
+  SceneManager.cpp
   SelectableComponent.cpp
-  SelectIcon.cpp
-  SelectInfomation.cpp
   SightRange.cpp
   SniperComponent.cpp
   Sprite.cpp
   Stage.cpp
   StageSelect.cpp
-  TextScene.cpp
-  TextSceneInfomation.cpp
-  TextSystem.cpp
-  TextureComponent.cpp
-  Tile.cpp
   コードを生成中...
   コンパイル中...
+  TextScene.cpp
+  TextSystem.cpp
+  Tile.cpp
   Title.cpp
   UIWindow.cpp
   Unit.cpp
@@ -93,8 +74,8 @@
   UnitAttackComponent.cpp
   UnitCommandMenu.cpp
   UnitCommandMenuMessage.cpp
-  UnitCompatibility.cpp
   UnitFusionComponent.cpp
+  UnitHealComponent.cpp
   UnitJobComponent.cpp
   UnitManager.cpp
   UnitMoveComponent.cpp
@@ -102,10 +83,7 @@
   UnitRange.cpp
   UnitSightComponent.cpp
   UnitStateComponent.cpp
-  UnitStatus.cpp
   UnitTextureComponent.cpp
-  UpdateComponent.cpp
-  WinMain.cpp
   コードを生成中...
 C:\Users\maila\Documents\GitHub\Br\Br\Project\UnitAIManager.cpp(73): warning C4700: 初期化されていないローカル変数 'ptr' が使用されます
   コンパイル中...

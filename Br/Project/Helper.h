@@ -4,8 +4,11 @@
 
 #include <crtdbg.h>
 #include <iostream>
+#include <sstream>
+#include <fstream>
 #include <string>
 #include <charconv>
+#include <iterator>
 #include <algorithm>
 #include <random>
 

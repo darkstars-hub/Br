@@ -1,0 +1,9 @@
+﻿  Actor.cpp
+  ActorFactory.cpp
+  ChariotComponent.cpp
+  HpComponent.cpp
+  Stage.cpp
+  コード生成しています。
+  Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+  コード生成が終了しました。
+  ProjectVS2017.vcxproj -> C:\Users\maila\Documents\GitHub\Br\Br\ProjectVS2017.exe
