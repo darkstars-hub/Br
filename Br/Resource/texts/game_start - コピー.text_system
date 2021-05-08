@@ -1,0 +1,318 @@
+{
+  "infomation": [
+    {
+      "text": "...",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "......",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": ".........",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": false
+    },
+    {
+      "text": "今日も平和だなー",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "......",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": false
+    },
+    {
+      "text": "王子大変です！",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 0.0,
+      "rect_right": 144.0,
+      "rect_top": 0.0,
+      "rect_down": 144.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+
+    },
+    {
+      "text": "？",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "どうしたんだいアペル",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "同盟国のアリティラが我が国に宣戦布告をしてきました",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 0.0,
+      "rect_right": 144.0,
+      "rect_top": 0.0,
+      "rect_down": 144.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+
+    },
+    {
+      "text": "そんな！？　アリティラには父上が貿易交渉に行ったばかりじゃないか！",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "王子！      \nいらっしゃいますか！      \n王子！",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 0.0,
+      "rect_right": 0.0,
+      "rect_top": 0.0,
+      "rect_down": 0.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "王子！     \nご無事ですか！",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 288.0,
+      "rect_right": 432.0,
+      "rect_top": 720.0,
+      "rect_down": 864.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "カイン！？　どうしたんだいボロボロじゃないか！？",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "王子　お逃げください\n同盟国のアリティラが我が国に宣戦布告してきました\n他諸国もそれに賛同し我が国に攻めてきます",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 288.0,
+      "rect_right": 432.0,
+      "rect_top": 720.0,
+      "rect_down": 864.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "父上は無事なのか？",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "おそらくはもう...\n王子これを",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 288.0,
+      "rect_right": 432.0,
+      "rect_top": 720.0,
+      "rect_down": 864.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "これは王家の紋章！",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "私は陛下の言葉を伝えるために参りました",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 288.0,
+      "rect_right": 432.0,
+      "rect_top": 720.0,
+      "rect_down": 864.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "「アリティラの未来を汝に託す\n王家の継承者として我が意思を継ぎ必ず大事を成し遂げよ」と",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 288.0,
+      "rect_right": 432.0,
+      "rect_top": 720.0,
+      "rect_down": 864.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "未来を僕に...",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "無念です！\n主命とはいえ一人を置いておめおめと\nいつか奴らを仲間の仇をこの手で！",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 288.0,
+      "rect_right": 432.0,
+      "rect_top": 720.0,
+      "rect_down": 864.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "僕も思いは同じだ\n共にアカネイラを倒そう！",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "王子　既に領内で侵入者がいるようです\nまずはその討伐に向かい万全を期すべきかと",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 0.0,
+      "rect_right": 144.0,
+      "rect_top": 0.0,
+      "rect_down": 144.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "よし　まずは侵入者の討伐に向かおう",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    }
+  ]
+}

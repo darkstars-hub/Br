@@ -1,0 +1,30 @@
+{
+  "infomation": [
+    {
+      "text": "「stage4」クリアおめでとう",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    },
+    {
+      "text": "ゲームクリアおめでとう！",
+      "texture": "Resource/textures/face_photo.png",
+      "rect_left": 1008.0,
+      "rect_right": 1152.0,
+      "rect_top": 864.0,
+      "rect_down": 1008.0,
+
+      "position_x": 128.0,
+      "position_y": 400.0,
+
+      "reverse_x": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+﻿Resource/bgm/battle.mp3
+Resource/bgm/stage0.mp3
+Resource/bgm/battle.mp3
+Resource/sound/se_maoudamashii_system27.mp3
+Resource/sound/se_maoudamashii_system28.mp3

@@ -1,0 +1,981 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{05a58df4-7b4f-453e-ad83-d73d6366ff4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game">
+      <UniqueIdentifier>{bf014bcc-6b15-464e-8b61-46015aef58ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{56c9adb5-5733-45c7-a4f4-0a7fb73442f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{a03b02a6-4af5-48db-aefd-8e97bb5a22c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component">
+      <UniqueIdentifier>{70bb108b-9870-4daf-9fa7-7f55c8affa73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component">
+      <UniqueIdentifier>{823a3efc-a6d3-44f4-abb3-f35ec19b3d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Application">
+      <UniqueIdentifier>{51cdc5e1-271a-4f68-a693-2e9c2bcf8d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Application">
+      <UniqueIdentifier>{482e377b-de01-4e48-9de3-e77d2ba9b243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース">
+      <UniqueIdentifier>{344a3493-ddd5-4b48-a62f-cbaf0178972d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\File">
+      <UniqueIdentifier>{e4767f67-7169-4df2-82fc-ef5225cb932e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Path">
+      <UniqueIdentifier>{f6c94fd7-335d-4475-acf0-232fc89fbe09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Path">
+      <UniqueIdentifier>{42bfe9eb-0ef5-4cbc-bb31-e4547075d85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component\Super">
+      <UniqueIdentifier>{1b4af23e-ce19-4aec-bbc8-06100580f2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Super">
+      <UniqueIdentifier>{85eac1bd-b275-4d84-9265-7bcdb06ef35d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UI">
+      <UniqueIdentifier>{57c59c66-bc7c-435d-849d-883bee8ad547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{c5b49dfa-c9c6-4f74-aa5a-4591379c64ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\GameSystem">
+      <UniqueIdentifier>{53e75236-e601-40c6-9d15-b35bdf0e2662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\GameSystem">
+      <UniqueIdentifier>{97e12959-ce09-4374-b01e-1b2333adbdef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AIState">
+      <UniqueIdentifier>{5bf4c26b-9e5d-43a4-871e-2fbe886e225e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\AIState">
+      <UniqueIdentifier>{435b554c-8ae4-4693-bd6d-8c81f2934b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UI\MenuMessage">
+      <UniqueIdentifier>{16fdcb92-b826-4a07-bc59-caded9340bad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI\MenuMessage">
+      <UniqueIdentifier>{0bd0bca2-e284-4a7b-991d-4116b2f9bb53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI\Menu">
+      <UniqueIdentifier>{a3bbf57a-1300-477c-9198-3347fc9eb093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UI\Menu">
+      <UniqueIdentifier>{52b1c9b1-b206-4ee7-b9c1-8e6e3f5b3c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Sprites">
+      <UniqueIdentifier>{054007d5-87ea-4dd0-8fec-e22b16dc0a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Sprites\cavalry">
+      <UniqueIdentifier>{1e40404b-c073-47b8-97e9-464a8b7e812a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Sprites\hoplite">
+      <UniqueIdentifier>{e2bf3689-1d63-4054-8762-1354c0e92cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Sprites\archer">
+      <UniqueIdentifier>{7e2c809e-4ec8-4680-b8f0-955bbd7b0dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Sprites\chariot">
+      <UniqueIdentifier>{cc87fc91-1366-40ea-9e3f-7a38de0b59b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Sprites\general">
+      <UniqueIdentifier>{edfcb376-4075-4414-b25c-07bd5512ddad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Sprites\heavy_cavalry">
+      <UniqueIdentifier>{81bfa411-7281-4e94-9089-ca2db92d8e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Sprites\light_cavalry">
+      <UniqueIdentifier>{9657a171-c8fb-45f1-ba72-db05d7205ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Sprites\hunter">
+      <UniqueIdentifier>{cc743aa9-06fd-42e8-8e39-17edba8e43cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Sprites\lord">
+      <UniqueIdentifier>{f506f1d2-d19c-4272-bfed-720d8196b995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Sprites\sniper">
+      <UniqueIdentifier>{003a337b-95f5-44de-bf74-ad8186df9bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Stages">
+      <UniqueIdentifier>{31642491-1f63-4aa9-aff6-3f3b62f41fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Texts">
+      <UniqueIdentifier>{767f375d-b0b1-47bd-b0b2-c202d2562906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\BattleSystem">
+      <UniqueIdentifier>{84d3ef0d-60c2-41ce-bd7a-830507f3df4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\BattleSystem">
+      <UniqueIdentifier>{456dc7b6-859f-4ee9-a05a-256d6f60a55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Builder">
+      <UniqueIdentifier>{5d33248f-e2f8-4405-9446-62c4f5e8de00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース\Scene">
+      <UniqueIdentifier>{774c720d-541c-450a-ab15-787d59d775e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\CursorComponent">
+      <UniqueIdentifier>{9905494d-9e77-4296-b2e6-f497f2d9651c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component\CursorComponent">
+      <UniqueIdentifier>{836c3acd-3cd8-478e-ab0d-bc91ed45e2d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component\UnitComponent">
+      <UniqueIdentifier>{82c977e6-345f-4df2-8042-d98af1bb999f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component\UnitComponent\Job">
+      <UniqueIdentifier>{8890ddd9-a31f-4d67-aa66-407eb509453d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\UnitComponent">
+      <UniqueIdentifier>{71cb07ca-08c7-4352-8fd2-9804d4866995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\UnitComponent\Job">
+      <UniqueIdentifier>{257d7ae6-01e2-46fa-b229-7b3e8709b708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Actor">
+      <UniqueIdentifier>{54f9865e-72f0-44da-9f90-93a149e5d6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Actor">
+      <UniqueIdentifier>{83b5dd3d-d5ee-4491-9a87-e3bbf8730a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Factory">
+      <UniqueIdentifier>{eb2fbfa9-5f40-4396-8381-537dc4dd8c33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureComponent.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSystem.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorManager.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>ソース ファイル\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Range.cpp">
+      <Filter>ソース ファイル\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionComponent.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectableComponent.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitStateComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitMoveComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeRenderComponent.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>ソース ファイル\Component\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>ソース ファイル\Component\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateComponent.cpp">
+      <Filter>ソース ファイル\Component\Super</Filter>
+    </ClCompile>
+    <ClCompile Include="PathRenderComponent.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitManager.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTextureComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorMoveComponent.cpp">
+      <Filter>ソース ファイル\Component\CursorComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitAttackComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="AIComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcherComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="CavalryComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="HopliteComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="LordComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="HpComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="PathComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitAIManager.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitJobComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitFusionComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="LightCavalryComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcherRange.cpp">
+      <Filter>ソース ファイル\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitRange.cpp">
+      <Filter>ソース ファイル\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitPath.cpp">
+      <Filter>ソース ファイル\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageCalculator.cpp">
+      <Filter>ソース ファイル\Game\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitCompatibility.cpp">
+      <Filter>ソース ファイル\Game\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitSightComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="SightRange.cpp">
+      <Filter>ソース ファイル\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="AIPatrol.cpp">
+      <Filter>ソース ファイル\AIState</Filter>
+    </ClCompile>
+    <ClCompile Include="AIAttack.cpp">
+      <Filter>ソース ファイル\AIState</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState.cpp">
+      <Filter>ソース ファイル\AIState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClear.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectInfomation.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSelect.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWindow.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSystem.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuMessage.cpp">
+      <Filter>ソース ファイル\UI\MenuMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenuMessage.cpp">
+      <Filter>ソース ファイル\UI\MenuMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitCommandMenuMessage.cpp">
+      <Filter>ソース ファイル\UI\MenuMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverMenuMessage.cpp">
+      <Filter>ソース ファイル\UI\MenuMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>ソース ファイル\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItem.cpp">
+      <Filter>ソース ファイル\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuMessenger.cpp">
+      <Filter>ソース ファイル\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitCommandMenu.cpp">
+      <Filter>ソース ファイル\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>ソース ファイル\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverMenu.cpp">
+      <Filter>ソース ファイル\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="TextScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitStatus.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ChariotComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="HeavyCavalryComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="HunterComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="SniperComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseGuage.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSystemHp.cpp">
+      <Filter>ソース ファイル\Game\BattleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSystemUnitInfomation.cpp">
+      <Filter>ソース ファイル\Game\BattleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSystemUnit.cpp">
+      <Filter>ソース ファイル\Game\BattleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSystem.cpp">
+      <Filter>ソース ファイル\Game\BattleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierCurve.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcherMoveComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="AIParam.cpp">
+      <Filter>ソース ファイル\AIState</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSceneInfomation.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSceneInfomation.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="FusionSystem.cpp">
+      <Filter>ソース ファイル\Game\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSystemForecast.cpp">
+      <Filter>ソース ファイル\Game\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem.cpp">
+      <Filter>ソース ファイル\Game\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneInfomation.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorFactory.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="HealerComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitHealComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="WizardComponent.cpp">
+      <Filter>ソース ファイル\Component\UnitComponent\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectIcon.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>ソース ファイル\Actor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>ヘッダー ファイル\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>ヘッダー ファイル\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureComponent.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSystem.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="StageTable.h">
+      <Filter>ヘッダー ファイル\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorManager.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>ヘッダー ファイル\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>ヘッダー ファイル\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Range.h">
+      <Filter>ヘッダー ファイル\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionComponent.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectableComponent.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitStateComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitMoveComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeRenderComponent.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>ヘッダー ファイル\Component\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateComponent.h">
+      <Filter>ヘッダー ファイル\Component\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>ヘッダー ファイル\Component\Super</Filter>
+    </ClInclude>
+    <ClInclude Include="PathRenderComponent.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitManager.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTextureComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorMoveComponent.h">
+      <Filter>ヘッダー ファイル\Component\CursorComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitAttackComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="AIComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcherComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="CavalryComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="HopliteComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="LordComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="HpComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="PathComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitAIManager.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitJobComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitFusionComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="LightCavalryComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcherRange.h">
+      <Filter>ヘッダー ファイル\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitRange.h">
+      <Filter>ヘッダー ファイル\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>ヘッダー ファイル\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitPath.h">
+      <Filter>ヘッダー ファイル\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageCalculator.h">
+      <Filter>ヘッダー ファイル\Game\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitCompatibility.h">
+      <Filter>ヘッダー ファイル\Game\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitSightComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="SightRange.h">
+      <Filter>ヘッダー ファイル\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="AIPatrol.h">
+      <Filter>ヘッダー ファイル\AIState</Filter>
+    </ClInclude>
+    <ClInclude Include="AIAttack.h">
+      <Filter>ヘッダー ファイル\AIState</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState.h">
+      <Filter>ヘッダー ファイル\AIState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClear.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectInfomation.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSelect.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSystem.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuMessage.h">
+      <Filter>ヘッダー ファイル\UI\MenuMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenuMessage.h">
+      <Filter>ヘッダー ファイル\UI\MenuMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitCommandMenuMessage.h">
+      <Filter>ヘッダー ファイル\UI\MenuMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverMenuMessage.h">
+      <Filter>ヘッダー ファイル\UI\MenuMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>ヘッダー ファイル\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>ヘッダー ファイル\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItem.h">
+      <Filter>ヘッダー ファイル\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuMessenger.h">
+      <Filter>ヘッダー ファイル\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWindow.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitCommandMenu.h">
+      <Filter>ヘッダー ファイル\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverMenu.h">
+      <Filter>ヘッダー ファイル\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="TextScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitStatus.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ChariotComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="HeavyCavalryComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="SniperComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="HunterComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseGuage.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcherMoveComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSystemHp.h">
+      <Filter>ヘッダー ファイル\Game\BattleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSystemUnit.h">
+      <Filter>ヘッダー ファイル\Game\BattleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSystemUnitInfomation.h">
+      <Filter>ヘッダー ファイル\Game\BattleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSystem.h">
+      <Filter>ヘッダー ファイル\Game\BattleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierCurve.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AIParam.h">
+      <Filter>ヘッダー ファイル\AIState</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSceneInfomation.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadSceneInfomation.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FusionSystem.h">
+      <Filter>ヘッダー ファイル\Game\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem.h">
+      <Filter>ヘッダー ファイル\Game\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSystemForecast.h">
+      <Filter>ヘッダー ファイル\Game\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInfomation.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="HealerComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitHealComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="WizardComponent.h">
+      <Filter>ヘッダー ファイル\Component\UnitComponent\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>ヘッダー ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>ヘッダー ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>ヘッダー ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>ヘッダー ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ヘッダー ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorFactory.h">
+      <Filter>ヘッダー ファイル\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>ヘッダー ファイル\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>ヘッダー ファイル\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectIcon.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resource\stage\stage4.txt">
+      <Filter>リソース\Stages</Filter>
+    </Text>
+    <Text Include="..\Resource\stage\stage0.txt">
+      <Filter>リソース\Stages</Filter>
+    </Text>
+    <Text Include="..\Resource\stage\cleared_stage_paths.txt">
+      <Filter>リソース\Stages</Filter>
+    </Text>
+    <Text Include="..\Resource\stage\stage3.txt">
+      <Filter>リソース\Stages</Filter>
+    </Text>
+    <Text Include="..\Resource\stage\stage1.txt">
+      <Filter>リソース\Stages</Filter>
+    </Text>
+    <Text Include="..\Resource\stage\stage2.txt">
+      <Filter>リソース\Stages</Filter>
+    </Text>
+    <Text Include="..\Resource\scene\gameclear_scene_resources.txt">
+      <Filter>リソース\Scene</Filter>
+    </Text>
+    <Text Include="..\Resource\scene\gameclear_scene_sounds.txt">
+      <Filter>リソース\Scene</Filter>
+    </Text>
+    <Text Include="..\Resource\scene\gameover_scene_resources.txt">
+      <Filter>リソース\Scene</Filter>
+    </Text>
+    <Text Include="..\Resource\scene\gameover_scene_sounds.txt">
+      <Filter>リソース\Scene</Filter>
+    </Text>
+    <Text Include="..\Resource\scene\select_scene_resources.txt">
+      <Filter>リソース\Scene</Filter>
+    </Text>
+    <Text Include="..\Resource\scene\select_scene_sounds.txt">
+      <Filter>リソース\Scene</Filter>
+    </Text>
+    <Text Include="..\Resource\scene\text_scene_resources.txt">
+      <Filter>リソース\Scene</Filter>
+    </Text>
+    <Text Include="..\Resource\scene\text_scene_sounds.txt">
+      <Filter>リソース\Scene</Filter>
+    </Text>
+    <Text Include="..\Resource\scene\game_scene_resources.txt">
+      <Filter>リソース\Scene</Filter>
+    </Text>
+    <Text Include="..\Resource\scene\game_scene_sounds.txt">
+      <Filter>リソース\Scene</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\stage\stage4.unit_initial_coordinate">
+      <Filter>リソース\Stages</Filter>
+    </None>
+    <None Include="..\Resource\texts\game_start.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\texts\player_boss_dead.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\sprites\cavalry\cavalry.sprite">
+      <Filter>リソース\Sprites\cavalry</Filter>
+    </None>
+    <None Include="..\Resource\sprites\cavalry\battle.sprite">
+      <Filter>リソース\Sprites\cavalry</Filter>
+    </None>
+    <None Include="..\Resource\texts\test.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\texts\game_clear.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\sprites\archer\battle.sprite">
+      <Filter>リソース\Sprites\archer</Filter>
+    </None>
+    <None Include="..\Resource\sprites\archer\archer.sprite">
+      <Filter>リソース\Sprites\archer</Filter>
+    </None>
+    <None Include="..\Resource\sprites\hoplite\battle.sprite">
+      <Filter>リソース\Sprites\hoplite</Filter>
+    </None>
+    <None Include="..\Resource\sprites\hoplite\hoplite.sprite">
+      <Filter>リソース\Sprites\hoplite</Filter>
+    </None>
+    <None Include="..\Resource\sprites\chariot\chariot.sprite">
+      <Filter>リソース\Sprites\chariot</Filter>
+    </None>
+    <None Include="..\Resource\sprites\chariot\battle.sprite">
+      <Filter>リソース\Sprites\chariot</Filter>
+    </None>
+    <None Include="..\Resource\sprites\general\general.sprite">
+      <Filter>リソース\Sprites\general</Filter>
+    </None>
+    <None Include="..\Resource\sprites\general\battle.sprite">
+      <Filter>リソース\Sprites\general</Filter>
+    </None>
+    <None Include="..\Resource\sprites\heavy_cavalry\heavy_cavalry.sprite">
+      <Filter>リソース\Sprites\heavy_cavalry</Filter>
+    </None>
+    <None Include="..\Resource\sprites\heavy_cavalry\battle.sprite">
+      <Filter>リソース\Sprites\heavy_cavalry</Filter>
+    </None>
+    <None Include="..\Resource\sprites\light_cavalry\light_cavalry.sprite">
+      <Filter>リソース\Sprites\light_cavalry</Filter>
+    </None>
+    <None Include="..\Resource\sprites\light_cavalry\battle.sprite">
+      <Filter>リソース\Sprites\light_cavalry</Filter>
+    </None>
+    <None Include="..\Resource\sprites\hunter\hunter.sprite">
+      <Filter>リソース\Sprites\hunter</Filter>
+    </None>
+    <None Include="..\Resource\sprites\hunter\battle.sprite">
+      <Filter>リソース\Sprites\hunter</Filter>
+    </None>
+    <None Include="..\Resource\sprites\lord\lord.sprite">
+      <Filter>リソース\Sprites\lord</Filter>
+    </None>
+    <None Include="..\Resource\sprites\lord\battle.sprite">
+      <Filter>リソース\Sprites\lord</Filter>
+    </None>
+    <None Include="..\Resource\sprites\sniper\sniper.sprite">
+      <Filter>リソース\Sprites\sniper</Filter>
+    </None>
+    <None Include="..\Resource\sprites\sniper\battle.sprite">
+      <Filter>リソース\Sprites\sniper</Filter>
+    </None>
+    <None Include="..\Resource\stage\stage3.unit_initial_coordinate">
+      <Filter>リソース\Stages</Filter>
+    </None>
+    <None Include="..\Resource\stage\stage0.unit_initial_coordinate">
+      <Filter>リソース\Stages</Filter>
+    </None>
+    <None Include="..\Resource\stage\stage1.unit_initial_coordinate">
+      <Filter>リソース\Stages</Filter>
+    </None>
+    <None Include="..\Resource\stage\stage2.unit_initial_coordinate">
+      <Filter>リソース\Stages</Filter>
+    </None>
+    <None Include="..\Resource\texts\stage4_clear.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\texts\stage4_start.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\texts\stage0_clear.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\texts\stage0_start.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\texts\stage1_clear.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\texts\stage1_start.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\texts\stage2_clear.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\texts\stage2_start.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\texts\stage3_clear.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\texts\stage3_start.text_system">
+      <Filter>リソース\Texts</Filter>
+    </None>
+    <None Include="..\Resource\builder\lord_builder.builder">
+      <Filter>リソース\Builder</Filter>
+    </None>
+    <None Include="..\Resource\builder\heavy_cavalry_builder.builder">
+      <Filter>リソース\Builder</Filter>
+    </None>
+    <None Include="..\Resource\builder\hoplite_builder.builder">
+      <Filter>リソース\Builder</Filter>
+    </None>
+    <None Include="..\Resource\builder\hunter_builder.builder">
+      <Filter>リソース\Builder</Filter>
+    </None>
+    <None Include="..\Resource\builder\light_cavalry_builder.builder">
+      <Filter>リソース\Builder</Filter>
+    </None>
+    <None Include="..\Resource\builder\archer_builder.builder">
+      <Filter>リソース\Builder</Filter>
+    </None>
+    <None Include="..\Resource\builder\cavalry_builder.builder">
+      <Filter>リソース\Builder</Filter>
+    </None>
+    <None Include="..\Resource\builder\chariot_builder.builder">
+      <Filter>リソース\Builder</Filter>
+    </None>
+    <None Include="..\Resource\builder\general_builder.builder">
+      <Filter>リソース\Builder</Filter>
+    </None>
+    <None Include="..\Resource\builder\sniper_builder.builder">
+      <Filter>リソース\Builder</Filter>
+    </None>
+  </ItemGroup>
+</Project>

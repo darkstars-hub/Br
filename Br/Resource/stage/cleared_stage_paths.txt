@@ -1,0 +1,1 @@
+Resource/stage/stage0.txt

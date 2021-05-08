@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{582B9C61-742D-4D2B-9C72-42C088CE473D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SimpleProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>../../MofLibrary/Include;../../../MofLibrary/Include;$(IncludePath);</IncludePath>
+    <LibraryPath>../../MofLibrary/Library;../../../MofLibrary/Library;$(LibraryPath);</LibraryPath>
+    <OutDir>$(SolutionDir)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>../../MofLibrary/Include;../../../MofLibrary/Include;$(IncludePath);</IncludePath>
+    <LibraryPath>../../MofLibrary/Library;../../../MofLibrary/Library;$(LibraryPath);</LibraryPath>
+    <OutDir>$(SolutionDir)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Library\Include;../../../MofLibrary/Include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Library\Library;../../../MofLibrary/Library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD;</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>USERNAME=$(USERNAME);</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Library\Include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Library\Library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>USERNAME=$(USERNAME);</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="ActorFactory.cpp" />
+    <ClCompile Include="ActorManager.cpp" />
+    <ClCompile Include="AIAttack.cpp" />
+    <ClCompile Include="AIComponent.cpp" />
+    <ClCompile Include="AIParam.cpp" />
+    <ClCompile Include="AIPatrol.cpp" />
+    <ClCompile Include="AIState.cpp" />
+    <ClCompile Include="ArcherComponent.cpp" />
+    <ClCompile Include="ArcherMoveComponent.cpp" />
+    <ClCompile Include="ArcherRange.cpp" />
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="AudioSystem.cpp" />
+    <ClCompile Include="BattleSystem.cpp" />
+    <ClCompile Include="BattleSystemForecast.cpp" />
+    <ClCompile Include="BattleSystemHp.cpp" />
+    <ClCompile Include="BattleSystemUnit.cpp" />
+    <ClCompile Include="BattleSystemUnitInfomation.cpp" />
+    <ClCompile Include="BezierCurve.cpp" />
+    <ClCompile Include="Builder.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CavalryComponent.cpp" />
+    <ClCompile Include="ChariotComponent.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="Cursor.cpp" />
+    <ClCompile Include="CursorMoveComponent.cpp" />
+    <ClCompile Include="DamageCalculator.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EffectManager.cpp" />
+    <ClCompile Include="FusionSystem.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="GameClear.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
+    <ClCompile Include="GameMenuMessage.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="GameOverMenu.cpp" />
+    <ClCompile Include="GameOverMenuMessage.cpp" />
+    <ClCompile Include="GameSystem.cpp" />
+    <ClCompile Include="GameUI.cpp" />
+    <ClCompile Include="GeneralComponent.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="UnitHealComponent.cpp" />
+    <ClCompile Include="HealerComponent.cpp" />
+    <ClCompile Include="HeavyCavalryComponent.cpp" />
+    <ClCompile Include="HopliteComponent.cpp" />
+    <ClCompile Include="HpComponent.cpp" />
+    <ClCompile Include="HunterComponent.cpp" />
+    <ClCompile Include="LightCavalryComponent.cpp" />
+    <ClCompile Include="Load.cpp" />
+    <ClCompile Include="LoadSceneInfomation.cpp" />
+    <ClCompile Include="LordComponent.cpp" />
+    <ClCompile Include="MenuItem.cpp" />
+    <ClCompile Include="MenuMessage.cpp" />
+    <ClCompile Include="MenuMessenger.cpp" />
+    <ClCompile Include="MotionComponent.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="PathComponent.cpp" />
+    <ClCompile Include="PathRenderComponent.cpp" />
+    <ClCompile Include="Range.cpp" />
+    <ClCompile Include="RangeComponent.cpp" />
+    <ClCompile Include="RangeRenderComponent.cpp" />
+    <ClCompile Include="RenderComponent.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="ReverseGuage.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneInfomation.cpp" />
+    <ClCompile Include="SelectableComponent.cpp" />
+    <ClCompile Include="SelectIcon.cpp" />
+    <ClCompile Include="SelectInfomation.cpp" />
+    <ClCompile Include="SightRange.cpp" />
+    <ClCompile Include="SniperComponent.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="StageSelect.cpp" />
+    <ClCompile Include="TextScene.cpp" />
+    <ClCompile Include="TextSceneInfomation.cpp" />
+    <ClCompile Include="TextSystem.cpp" />
+    <ClCompile Include="TextureComponent.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="UIWindow.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="UnitAIManager.cpp" />
+    <ClCompile Include="UnitAttackComponent.cpp" />
+    <ClCompile Include="UnitCommandMenu.cpp" />
+    <ClCompile Include="UnitCommandMenuMessage.cpp" />
+    <ClCompile Include="UnitCompatibility.cpp" />
+    <ClCompile Include="UnitFusionComponent.cpp" />
+    <ClCompile Include="UnitJobComponent.cpp" />
+    <ClCompile Include="UnitManager.cpp" />
+    <ClCompile Include="UnitMoveComponent.cpp" />
+    <ClCompile Include="UnitPath.cpp" />
+    <ClCompile Include="UnitRange.cpp" />
+    <ClCompile Include="UnitSightComponent.cpp" />
+    <ClCompile Include="UnitStateComponent.cpp" />
+    <ClCompile Include="UnitStatus.cpp" />
+    <ClCompile Include="UnitTextureComponent.cpp" />
+    <ClCompile Include="UpdateComponent.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="WizardComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="ActorFactory.h" />
+    <ClInclude Include="ActorManager.h" />
+    <ClInclude Include="AIAttack.h" />
+    <ClInclude Include="AIComponent.h" />
+    <ClInclude Include="AIParam.h" />
+    <ClInclude Include="AIPatrol.h" />
+    <ClInclude Include="AIState.h" />
+    <ClInclude Include="ArcherComponent.h" />
+    <ClInclude Include="ArcherMoveComponent.h" />
+    <ClInclude Include="ArcherRange.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="AudioSystem.h" />
+    <ClInclude Include="BattleSystem.h" />
+    <ClInclude Include="BattleSystemForecast.h" />
+    <ClInclude Include="BattleSystemHp.h" />
+    <ClInclude Include="BattleSystemUnit.h" />
+    <ClInclude Include="BattleSystemUnitInfomation.h" />
+    <ClInclude Include="BezierCurve.h" />
+    <ClInclude Include="Builder.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CavalryComponent.h" />
+    <ClInclude Include="ChariotComponent.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="CursorMoveComponent.h" />
+    <ClInclude Include="DamageCalculator.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EffectManager.h" />
+    <ClInclude Include="FusionSystem.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="GameClear.h" />
+    <ClInclude Include="GameMenu.h" />
+    <ClInclude Include="GameMenuMessage.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="GameOverMenu.h" />
+    <ClInclude Include="GameOverMenuMessage.h" />
+    <ClInclude Include="GameSystem.h" />
+    <ClInclude Include="GameUI.h" />
+    <ClInclude Include="GeneralComponent.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="UnitHealComponent.h" />
+    <ClInclude Include="HealerComponent.h" />
+    <ClInclude Include="HeavyCavalryComponent.h" />
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="HopliteComponent.h" />
+    <ClInclude Include="HpComponent.h" />
+    <ClInclude Include="HunterComponent.h" />
+    <ClInclude Include="LightCavalryComponent.h" />
+    <ClInclude Include="Load.h" />
+    <ClInclude Include="LoadSceneInfomation.h" />
+    <ClInclude Include="LordComponent.h" />
+    <ClInclude Include="MenuItem.h" />
+    <ClInclude Include="MenuMessage.h" />
+    <ClInclude Include="MenuMessenger.h" />
+    <ClInclude Include="MotionComponent.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Path.h" />
+    <ClInclude Include="PathComponent.h" />
+    <ClInclude Include="PathRenderComponent.h" />
+    <ClInclude Include="Range.h" />
+    <ClInclude Include="RangeComponent.h" />
+    <ClInclude Include="RangeRenderComponent.h" />
+    <ClInclude Include="RenderComponent.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="ReverseGuage.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneInfomation.h" />
+    <ClInclude Include="SelectableComponent.h" />
+    <ClInclude Include="SelectIcon.h" />
+    <ClInclude Include="SelectInfomation.h" />
+    <ClInclude Include="SightRange.h" />
+    <ClInclude Include="SniperComponent.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="StageSelect.h" />
+    <ClInclude Include="StageTable.h" />
+    <ClInclude Include="TextScene.h" />
+    <ClInclude Include="TextSceneInfomation.h" />
+    <ClInclude Include="TextSystem.h" />
+    <ClInclude Include="TextureComponent.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="UIWindow.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="UnitAIManager.h" />
+    <ClInclude Include="UnitAttackComponent.h" />
+    <ClInclude Include="UnitCommandMenu.h" />
+    <ClInclude Include="UnitCommandMenuMessage.h" />
+    <ClInclude Include="UnitCompatibility.h" />
+    <ClInclude Include="UnitFusionComponent.h" />
+    <ClInclude Include="UnitJobComponent.h" />
+    <ClInclude Include="UnitManager.h" />
+    <ClInclude Include="UnitMoveComponent.h" />
+    <ClInclude Include="UnitPath.h" />
+    <ClInclude Include="UnitRange.h" />
+    <ClInclude Include="UnitSightComponent.h" />
+    <ClInclude Include="UnitStateComponent.h" />
+    <ClInclude Include="UnitStatus.h" />
+    <ClInclude Include="UnitTextureComponent.h" />
+    <ClInclude Include="UpdateComponent.h" />
+    <ClInclude Include="WizardComponent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resource\scene\gameclear_scene_resources.txt" />
+    <Text Include="..\Resource\scene\gameclear_scene_sounds.txt" />
+    <Text Include="..\Resource\scene\gameover_scene_resources.txt" />
+    <Text Include="..\Resource\scene\gameover_scene_sounds.txt" />
+    <Text Include="..\Resource\scene\game_scene_resources.txt" />
+    <Text Include="..\Resource\scene\game_scene_sounds.txt" />
+    <Text Include="..\Resource\scene\select_scene_resources.txt" />
+    <Text Include="..\Resource\scene\select_scene_sounds.txt" />
+    <Text Include="..\Resource\scene\text_scene_resources.txt" />
+    <Text Include="..\Resource\scene\text_scene_sounds.txt" />
+    <Text Include="..\Resource\stage\cleared_stage_paths.txt" />
+    <Text Include="..\Resource\stage\stage0.txt" />
+    <Text Include="..\Resource\stage\stage1.txt" />
+    <Text Include="..\Resource\stage\stage2.txt" />
+    <Text Include="..\Resource\stage\stage3.txt" />
+    <Text Include="..\Resource\stage\stage4.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\builder\archer_builder.builder" />
+    <None Include="..\Resource\builder\cavalry_builder.builder" />
+    <None Include="..\Resource\builder\chariot_builder.builder" />
+    <None Include="..\Resource\builder\general_builder.builder" />
+    <None Include="..\Resource\builder\heavy_cavalry_builder.builder" />
+    <None Include="..\Resource\builder\hoplite_builder.builder" />
+    <None Include="..\Resource\builder\hunter_builder.builder" />
+    <None Include="..\Resource\builder\light_cavalry_builder.builder" />
+    <None Include="..\Resource\builder\lord_builder.builder" />
+    <None Include="..\Resource\builder\sniper_builder.builder" />
+    <None Include="..\Resource\sprites\archer\archer.sprite" />
+    <None Include="..\Resource\sprites\archer\battle.sprite" />
+    <None Include="..\Resource\sprites\cavalry\battle.sprite" />
+    <None Include="..\Resource\sprites\cavalry\cavalry.sprite" />
+    <None Include="..\Resource\sprites\chariot\battle.sprite" />
+    <None Include="..\Resource\sprites\chariot\chariot.sprite" />
+    <None Include="..\Resource\sprites\general\battle.sprite" />
+    <None Include="..\Resource\sprites\general\general.sprite" />
+    <None Include="..\Resource\sprites\heavy_cavalry\battle.sprite" />
+    <None Include="..\Resource\sprites\heavy_cavalry\heavy_cavalry.sprite" />
+    <None Include="..\Resource\sprites\hoplite\battle.sprite" />
+    <None Include="..\Resource\sprites\hoplite\hoplite.sprite" />
+    <None Include="..\Resource\sprites\hunter\battle.sprite" />
+    <None Include="..\Resource\sprites\hunter\hunter.sprite" />
+    <None Include="..\Resource\sprites\light_cavalry\battle.sprite" />
+    <None Include="..\Resource\sprites\light_cavalry\light_cavalry.sprite" />
+    <None Include="..\Resource\sprites\lord\battle.sprite" />
+    <None Include="..\Resource\sprites\lord\lord.sprite" />
+    <None Include="..\Resource\sprites\sniper\battle.sprite" />
+    <None Include="..\Resource\sprites\sniper\sniper.sprite" />
+    <None Include="..\Resource\stage\stage0.unit_initial_coordinate" />
+    <None Include="..\Resource\stage\stage1.unit_initial_coordinate" />
+    <None Include="..\Resource\stage\stage2.unit_initial_coordinate" />
+    <None Include="..\Resource\stage\stage3.unit_initial_coordinate" />
+    <None Include="..\Resource\stage\stage4.unit_initial_coordinate" />
+    <None Include="..\Resource\texts\game_clear.text_system" />
+    <None Include="..\Resource\texts\game_start.text_system" />
+    <None Include="..\Resource\texts\player_boss_dead.text_system" />
+    <None Include="..\Resource\texts\stage0_clear.text_system" />
+    <None Include="..\Resource\texts\stage0_start.text_system" />
+    <None Include="..\Resource\texts\stage1_clear.text_system" />
+    <None Include="..\Resource\texts\stage1_start.text_system" />
+    <None Include="..\Resource\texts\stage2_clear.text_system" />
+    <None Include="..\Resource\texts\stage2_start.text_system" />
+    <None Include="..\Resource\texts\stage3_clear.text_system" />
+    <None Include="..\Resource\texts\stage3_start.text_system" />
+    <None Include="..\Resource\texts\stage4_clear.text_system" />
+    <None Include="..\Resource\texts\stage4_start.text_system" />
+    <None Include="..\Resource\texts\test.text_system" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties _1_1_4Resource_4sprites_4archer_4battle_1sprite__JsonSchema="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
